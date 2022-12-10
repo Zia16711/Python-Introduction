@@ -1,0 +1,209 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'C:\\\\Users\\\\TAJ\\\\Documents'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import os\n",
+    "os.getcwd()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "what is your name? zia\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"what is your name? \")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "what is your name? zia\n",
+      "Hello zia\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"what is your name? \")\n",
+    "print(\"Hello \" + name)     # concatenation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter your birth year: 1984\n",
+      "38\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year = input(\"enter your birth year: \")\n",
+    "age = 2022 - int(birth_year)   # to calculate your age, int and float\n",
+    "print(int(age))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "first number 33\n",
+      "second number 22\n",
+      "3322\n"
+     ]
+    }
+   ],
+   "source": [
+    "first = input(\"first number \")\n",
+    "second = input(\"second number \")\n",
+    "sum = first + second   # string\n",
+    "print(sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "first number 55\n",
+      "second number 65\n",
+      "120\n"
+     ]
+    }
+   ],
+   "source": [
+    "first = input(\"first number \")\n",
+    "second = input(\"second number \")\n",
+    "sum = int(first) + int(second)\n",
+    "print(sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "first number 44\n",
+      "second number 33\n",
+      "sum: 77.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "first = input(\"first number \")\n",
+    "second = input(\"second number \")\n",
+    "sum = float(first) + float(second)   #float\n",
+    "print(\"sum: \" + str(sum))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "first = float(input(\"first number \"))\n",
+    "second = float(input(\"second number \"))   ###float\n",
+    "sum = first + second   \n",
+    "print(\"sum: \" + str(sum))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "PYTHON COURSE FOR BEGINNER\n",
+      "python course for beginner\n",
+      "1\n",
+      "python course 4 beginner\n"
+     ]
+    }
+   ],
+   "source": [
+    "course = 'python course for beginner'\n",
+    "print(course.upper())\n",
+    "print(course)\n",
+    "print(course.find('y'))\n",
+    "print(course.replace('for', '4'))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
